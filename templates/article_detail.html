@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="article-entry">
+  <h2>{{ object.title }}</h2>
+    <p>{{ object.author }} | {{ object.date }}</p>
+    <p>{{ object.body }}</p>
+</div>
+  <p><a href="{% url 'article_edit' article.pk %}">Редактировать</a> | 
+  <a href="{% url 'article_delete' article.pk %}">Удалить</a></p>
+  <p>Вернуться к <a href="{% url 'article_list' %}">Все Статьи</a></p>
+{% endblock content %}

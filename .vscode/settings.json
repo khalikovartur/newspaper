@@ -1,0 +1,23 @@
+{
+    "editor.tabCompletion": "on",
+    "files.autoGuessEncoding": true,
+    "files.autoSave": "onFocusChange",
+    "workbench.editor.decorations.colors": true,
+    "debug.console.fontSize": 10,
+    "cSpell.ignoreWords": [
+        "a",
+        "else",
+        "endblock",
+        "endif",
+        "href",
+        "login",
+        "p",
+        "signup",
+        "url",
+        "авторизированы",
+        "войти",
+        "вы",
+        "зарегистрироваться",
+        "не"
+    ]
+}
